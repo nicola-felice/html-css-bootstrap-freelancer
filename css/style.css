@@ -1,0 +1,99 @@
+
+/* DEBUG */
+[class*=col] {
+    border: red 2px solid;
+}
+/* END DEBUG */
+
+
+
+/* _______ GLOBAL COLORS _______ */
+:root {
+    --main_acqua_green: #1abc9c;
+    --main_dark_blue: #2c3e50;
+}
+/* _______ END GLOBAL COLORS _______ */
+
+
+
+/* _______ COMMON STYLES _______ */
+body {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
+
+section {
+    padding: 2rem 0;
+}
+/* _______ END COMMON STYLES _______ */
+
+
+
+/* _______ HEADER _______ */
+header {
+    background-color: var(--main_dark_blue);
+    padding: 2rem 0;
+}
+/* _______ END HEADER _______ */
+
+
+
+/* _______ MAIN _______ */
+
+/* ----- HERO SECTION ----- */
+.hero {
+    background-color: var(--main_acqua_green);
+
+    /* debug */
+    padding: 150px 0;
+}
+/* ----- END HERO SECTION ----- */
+
+
+/* ----- PORTFOLIO SECTION ----- */
+.portfolio {
+    color: #333333;
+}
+.portfolio .wrapper {
+    padding: calc(var(--bs-gutter-x) * .5) 0;
+}
+/* ----- END PORTFOLIO SECTION ----- */
+
+
+/* ----- ABOUT SECTION ----- */
+.about {
+    background-color: var(--main_acqua_green);
+}
+/* ----- END ABOUT SECTION ----- */
+
+
+/* ----- CONTACT FORM SECTION ----- */
+.contact_form {
+    padding: 100px 0;
+    color: #333333;
+}
+/* ----- CONTACT FORM SECTION ----- */
+
+/* _______ END MAIN _______ */
+
+
+
+/* _______ FOOTER _______ */
+
+/* ----- FOOTER TOP ----- */
+.footer_top {
+    background-color: #3a546d;
+}
+/* ----- END FOOTER TOP ----- */
+
+
+/* ----- FOOTER BOTTOM ----- */
+.footer_bottom {
+    background-color: var(--main_dark_blue);
+}
+/* ----- END FOOTER BOTTOM ----- */
+
+/* _______ END FOOTER _______ */
