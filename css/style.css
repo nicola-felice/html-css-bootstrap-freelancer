@@ -212,7 +212,7 @@ header {
 }
 /* END CONTACT FORM STYLES */
 
-/* ----- CONTACT FORM SECTION ----- */
+/* ----- END CONTACT FORM SECTION ----- */
 
 /* _______ END MAIN _______ */
 
@@ -224,12 +224,43 @@ header {
 .footer_top {
     background-color: #3a546d;
 }
+@media screen and (max-width: 768px) {
+    .footer_top {
+        font-size: .8rem;
+    }
+
+    .footer_top h4 {
+        font-size: 1rem;
+    }
+}
+
+.footer_top .row > * {
+    padding: 1rem .25rem;
+}
+
+.footer_top h4 {
+    font-weight: 600;
+}
+.footer_top em {
+    color: var(--main_acqua_green);
+    font-style:normal;
+}
+
+.socials .icon_wrapper {
+    border: 1px white solid;
+    border-radius: 50%;
+    display: inline-block;
+    height: 2.5rem;
+    width: 2.5rem;
+    line-height: 2.5rem;
+}
 /* ----- END FOOTER TOP ----- */
 
 
 /* ----- FOOTER BOTTOM ----- */
 .footer_bottom {
     background-color: var(--secondary_dark_blue);
+    font-size: .7rem;
 }
 /* ----- END FOOTER BOTTOM ----- */
 
