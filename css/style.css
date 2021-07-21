@@ -1,16 +1,9 @@
 
-/* DEBUG */
-[class*=col] {
-    border: red 2px solid;
-}
-/* END DEBUG */
-
-
 
 /* _______ GLOBAL COLORS _______ */
 :root {
     --main_acqua_green: #1abc9c;
-    --main_dark_blue: #2c3e50;
+    --secondary_dark_blue: #2c3e50;
 }
 /* _______ END GLOBAL COLORS _______ */
 
@@ -34,9 +27,43 @@ section {
 
 /* _______ HEADER _______ */
 header {
-    background-color: var(--main_dark_blue);
-    padding: 2rem 0;
+    background-color: var(--secondary_dark_blue);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: .75rem 0;
 }
+
+.ms_logo {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* ----- NAVBAR ----- */
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler {
+    border-color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(202, 202, 202);
+}
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white;
+}
+.navbar-expand-lg {
+    justify-content: space-between;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+/* ----- END NAVBAR ----- */
+
+
 /* _______ END HEADER _______ */
 
 
@@ -46,6 +73,7 @@ header {
 /* ----- HERO SECTION ----- */
 .hero {
     background-color: var(--main_acqua_green);
+    margin-top: 4rem;
 
     /* debug */
     padding: 150px 0;
@@ -57,7 +85,7 @@ header {
 .portfolio {
     color: #333333;
 }
-.portfolio .wrapper {
+.portfolio .portfolio_item {
     padding: calc(var(--bs-gutter-x) * .5) 0;
 }
 /* ----- END PORTFOLIO SECTION ----- */
@@ -92,7 +120,7 @@ header {
 
 /* ----- FOOTER BOTTOM ----- */
 .footer_bottom {
-    background-color: var(--main_dark_blue);
+    background-color: var(--secondary_dark_blue);
 }
 /* ----- END FOOTER BOTTOM ----- */
 
