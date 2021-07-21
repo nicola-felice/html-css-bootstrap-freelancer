@@ -17,6 +17,13 @@ h2 {
     font-weight: 600;
 }
 
+a {
+    color: unset;
+}
+a:hover {
+    color: unset;
+}
+
 body {
     color: white;
 }
