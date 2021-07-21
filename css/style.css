@@ -10,6 +10,10 @@
 
 
 /* _______ COMMON STYLES _______ */
+h1 {
+    font-weight: 700;
+}
+
 body {
     color: white;
 }
@@ -21,6 +25,25 @@ img {
 section {
     padding: 2rem 0;
 }
+
+/* DIVIDER */
+.star_divider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+
+    margin: 1rem 0;
+}
+.divider_line {
+    width: 5rem;
+    height: 4px;
+    margin: 0 .5rem;
+    background-color: white;
+}
+/* END DIVIDER */
+
 /* _______ END COMMON STYLES _______ */
 
 
@@ -74,10 +97,14 @@ header {
 .hero {
     background-color: var(--main_acqua_green);
     margin-top: 4rem;
-
-    /* debug */
-    padding: 150px 0;
+    padding: 3rem 0;
+    font-weight: 600;
 }
+
+.avatar_img {
+    max-width: 13rem;
+    margin-bottom: .5rem;
+} 
 /* ----- END HERO SECTION ----- */
 
 
