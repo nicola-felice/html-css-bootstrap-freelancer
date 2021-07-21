@@ -26,7 +26,7 @@ img {
 }
 
 section {
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 /* DIVIDER */
@@ -54,6 +54,22 @@ section {
 /* END DIVIDER */
 
 /* _______ END COMMON STYLES _______ */
+
+
+
+/* _______ BUTTONS _______ */
+.ms_btn {
+    background-color: var(--main_acqua_green);
+    padding: .5rem 1rem;
+    font-weight: 500;
+    color: white;
+    border-radius: .35rem;
+    transition: all 300ms ease-in-out;
+}
+.ms_btn:hover {
+    background-color: var(--secondary_dark_blue);
+}
+/* _______ END BUTTONS _______ */
 
 
 
@@ -107,7 +123,6 @@ header {
 .hero {
     background-color: var(--main_acqua_green);
     margin-top: 4rem;
-    padding: 3rem 0;
     font-weight: 600;
 }
 
@@ -160,6 +175,15 @@ header {
 /* ----- ABOUT SECTION ----- */
 .about {
     background-color: var(--main_acqua_green);
+}
+
+.about .star_divider {
+    margin-bottom: 2.5rem;
+}
+
+.about button {
+    border: 1px white solid;
+    margin-top: 2rem;
 }
 /* ----- END ABOUT SECTION ----- */
 
