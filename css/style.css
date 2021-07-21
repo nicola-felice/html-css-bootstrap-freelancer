@@ -98,6 +98,14 @@ header {
 .navbar-light .navbar-toggler {
     border-color: white;
 }
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+/* if dropdown menu is expanded show dropshadow */
+.navbar-toggler[aria-expanded*="true"] {
+    box-shadow: inset 0px 0px 11px 3px rgba(255,255,255,0.49);
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: rgb(202, 202, 202);
 }
